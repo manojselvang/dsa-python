@@ -1,7 +1,8 @@
-Write a python program for finding ig a given number A is prime or not?
+Question:
+  Write a python program for finding ig a given number A is prime or not?
+  Return 1 if A is prime and return 0 if not.
 
-Return 1 if A is prime and return 0 if not.
-
+Code:
 def if_prime(A):
   if A == 1:
     return 0                # return 0 if A=1, as 1 is not prime
