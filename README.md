@@ -9,7 +9,7 @@ This repository contains topic-wise implementations of Data Structures and Algor
 - Number System
   - Sum of N Natural Numbers
   - Check if Number is Prime?
-  - Count Number of factors of interger A
+  - Count Number of factors of an interger A
 
 
 
