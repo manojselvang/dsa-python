@@ -1,0 +1,20 @@
+Question:
+Given an integer A, you need to find the count of it's factors.
+Factor if a number is the number which divides it perfectly leaving no remainder.
+
+Example: 1,2,3,6 are factors of 6
+
+Code:
+
+def count_factors(A):
+  count = 0
+
+  N = int(A**0.5 + 1)      # A^(1/2) = root of A - reason to reduce the number of iterations to make the code more time effecient
+
+  for i in range(1,N):
+    if A%i == 0:           # if i is a divisor of A - continue
+      if i != A/i:         # if i the divisor is not equal to A/i (handle edge cases like i and A/i are equal) e.g., 2*2, 3*3, 4*4...
+        count += 2         # Then increment count by 2
+      else:
+        count = 1          # if not, increment count by 1
+  return count             # return count 1
