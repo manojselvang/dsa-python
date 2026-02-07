@@ -1,10 +1,10 @@
-Question:
-Given an integer A, you need to find the count of it's factors.
-Factor if a number is the number which divides it perfectly leaving no remainder.
+# Question:
+# Given an integer A, you need to find the count of it's factors.
+# Factor if a number is the number which divides it perfectly leaving no remainder.
 
-Example: 1,2,3,6 are factors of 6
+# Example: 1,2,3,6 are factors of 6
 
-Code:
+# Code:
 
 def count_factors(A):
   count = 0
