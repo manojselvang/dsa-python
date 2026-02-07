@@ -3,6 +3,8 @@
 #Given an Integer A. You have to tell if it is a perfect number or not.
 #Perfect number is a positive inter which is equal to the sum of its proper positive divisors.
 
+# Example: 1,2,3,6 are factors of 6
+
 def if_perfect_square(A):
 
   total = 1                #initialising with 1 as all numbers are divisible by 1
