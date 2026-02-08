@@ -15,7 +15,7 @@ This repository contains topic-wise implementations of Data Structures and Algor
 
 
 ## Goals
-- Strengthn problem-solving skills
+- Strengthen problem-solving skills
 - Understand time & space complexity
 - Write clean and readable code
 
